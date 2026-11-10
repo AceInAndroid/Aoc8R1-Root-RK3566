@@ -1,0 +1,87 @@
+[
+  {
+    "args": [
+      "shell",
+      "id"
+    ],
+    "returncode": 0,
+    "output": "uid=2000(shell) gid=2000(shell) groups=2000(shell),1004(input),1007(log),1011(adb),1015(sdcard_rw),1028(sdcard_r),1078(ext_data_rw),1079(ext_obb_rw),3001(net_bt_admin),3002(net_bt),3003(inet),3006(net_bw_stats),3009(readproc),3011(uhid) context=u:r:shell:s0\n"
+  },
+  {
+    "args": [
+      "shell",
+      "getprop",
+      "ro.build.type"
+    ],
+    "returncode": 0,
+    "output": "user\n"
+  },
+  {
+    "args": [
+      "shell",
+      "getprop",
+      "ro.debuggable"
+    ],
+    "returncode": 0,
+    "output": "0\n"
+  },
+  {
+    "args": [
+      "shell",
+      "getprop",
+      "ro.secure"
+    ],
+    "returncode": 0,
+    "output": "1\n"
+  },
+  {
+    "args": [
+      "shell",
+      "getprop",
+      "sys.rkadb.root"
+    ],
+    "returncode": 0,
+    "output": "\n"
+  },
+  {
+    "args": [
+      "shell",
+      "getprop",
+      "ro.boot.verifiedbootstate"
+    ],
+    "returncode": 0,
+    "output": "orange\n"
+  },
+  {
+    "args": [
+      "shell",
+      "getprop",
+      "ro.boot.flash.locked"
+    ],
+    "returncode": 0,
+    "output": "0\n"
+  },
+  {
+    "args": [
+      "shell",
+      "getenforce"
+    ],
+    "returncode": 0,
+    "output": "Enforcing\n"
+  },
+  {
+    "args": [
+      "shell",
+      "command -v su; command -v magisk"
+    ],
+    "returncode": 1,
+    "output": ""
+  },
+  {
+    "args": [
+      "root"
+    ],
+    "returncode": 0,
+    "output": "adbd cannot run as root in production builds\n"
+  }
+]

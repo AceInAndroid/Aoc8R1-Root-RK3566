@@ -1,0 +1,65 @@
+{
+  "sample": "AOC 8R1 / RK3566 / Android 11; exact original hashes only",
+  "release_tag": "v1.0.0",
+  "files": {
+    "boot-original-verified.img": {
+      "bytes": 67108864,
+      "sha256": "76367bf27f95c77f571990c9be077a37d6dc9ad9dc8c53cbcf072e2ac3e43140",
+      "required_for_boot": true
+    },
+    "boot-original-verified.img.gz": {
+      "bytes": 15328104,
+      "sha256": "03e0e6e717c0ba55de73b819eb2d7a1d381334dddc6085df74dffe2078eb193e",
+      "unpacks_to": "boot-original-verified.img"
+    },
+    "boot-magisk-v31.1.img": {
+      "bytes": 67108864,
+      "sha256": "170fc7ec42a0201d7719667e941a30c57a788cab2af6d8995d509d088a2dde52",
+      "required_for_boot": true
+    },
+    "boot-magisk-v31.1.img.gz": {
+      "bytes": 15356755,
+      "sha256": "d1a3d71d11cd5b16dbf557bfe7213c860e2cd52e81389d1468258316726f64cb",
+      "unpacks_to": "boot-magisk-v31.1.img"
+    },
+    "recovery-original-verified.img": {
+      "bytes": 100663296,
+      "sha256": "ee1a5c4956cff459cf0c88e4f5701ac9a32a2db6d7ea9b03c4395d78d4dc6bde",
+      "required_for_boot": true
+    },
+    "recovery-original-verified.img.gz": {
+      "bytes": 54002458,
+      "sha256": "e379a8cbf85eae85f8474ecaad754504557cbd07d43fd064a195b5eb8d7a81e4",
+      "unpacks_to": "recovery-original-verified.img"
+    },
+    "ddr-original.bin": {
+      "bytes": 59392,
+      "sha256": "93b27b55bab72521bef3753e50d647cddccfc1822fe954f3324e4ca6860a5ba7",
+      "required_for_boot": false
+    },
+    "rk356x_usbplug_v1.17.bin": {
+      "bytes": 98708,
+      "sha256": "4038b7857b840f539760decc0daf1601b8ff61cc17798101e93b11128a7f333e",
+      "required_for_boot": false
+    },
+    "ram-only-original-ddr-readlimit-adjusted.bin": {
+      "bytes": 161796,
+      "sha256": "bef69d6d3c513af830182d9689673e5953df6749417508d87f150f90d6fb806d",
+      "required_for_boot": true
+    },
+    "rkdeveloptool-macos-arm64": {
+      "bytes": 186608,
+      "sha256": "4e9500cf137d3d385293856c48b60096fae5f997b14ece2484564f8d60219cd6",
+      "required_for_boot": false
+    },
+    "Magisk-v31.1.apk": {
+      "bytes": 10679283,
+      "sha256": "89cefac0a318afa39fb3880c45c87b036c05bc1ebf02a7a715b7f8d7c26ac6e7",
+      "required_for_boot": false
+    },
+    "rkdeveloptool-source.tar.gz": {
+      "bytes": 58685,
+      "sha256": "45464eea06c319a4699b67add2fa6b1ca4d5ff3eb9fb07ec1eba53d9fdf756a5"
+    }
+  }
+}

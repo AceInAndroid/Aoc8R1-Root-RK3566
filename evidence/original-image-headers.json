@@ -1,0 +1,28 @@
+[
+  {
+    "name": "boot",
+    "kernel_size": 31567880,
+    "ramdisk_size": 761811,
+    "ramdisk_decompressed_size": 1729536,
+    "second_size": 204288,
+    "page_size": 2048,
+    "header_version": 2,
+    "ramdisk_offset": 31571968,
+    "entries": 7,
+    "cmdline": "console=ttyFIQ0 androidboot.baseband=N/A androidboot.wificountrycode=CN androidboot.veritymode=enforcing androidboot.hardware=rk30board androidboot.console=ttyFIQ0 androidboot.verifiedbootstate=orange firmware_class.path=/vendor/etc/firmware init=/init rootwait ro loop.max_part=7 androidboot.selinux=permissive buildvariant=user",
+    "tail_magic": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "name": "recovery",
+    "kernel_size": 31567880,
+    "ramdisk_size": 39631481,
+    "ramdisk_decompressed_size": 87663360,
+    "second_size": 204288,
+    "page_size": 2048,
+    "header_version": 2,
+    "ramdisk_offset": 31571968,
+    "entries": 612,
+    "cmdline": "console=ttyFIQ0 androidboot.baseband=N/A androidboot.wificountrycode=CN androidboot.veritymode=enforcing androidboot.hardware=rk30board androidboot.console=ttyFIQ0 androidboot.verifiedbootstate=orange firmware_class.path=/vendor/etc/firmware init=/init rootwait ro loop.max_part=7 androidboot.selinux=permissive buildvariant=user",
+    "tail_magic": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "gpt_crcs_valid": true,
+  "backup_gpt_lba": 123011071,
+  "partitions": [
+    {
+      "name": "uboot",
+      "start_sector": 16384,
+      "sector_count": 8192,
+      "bytes": 4194304
+    },
+    {
+      "name": "trust",
+      "start_sector": 24576,
+      "sector_count": 8192,
+      "bytes": 4194304
+    },
+    {
+      "name": "waveform",
+      "start_sector": 32768,
+      "sector_count": 4096,
+      "bytes": 2097152
+    },
+    {
+      "name": "misc",
+      "start_sector": 36864,
+      "sector_count": 8192,
+      "bytes": 4194304
+    },
+    {
+      "name": "dtbo",
+      "start_sector": 45056,
+      "sector_count": 8192,
+      "bytes": 4194304
+    },
+    {
+      "name": "vbmeta",
+      "start_sector": 53248,
+      "sector_count": 2048,
+      "bytes": 1048576
+    },
+    {
+      "name": "boot",
+      "start_sector": 55296,
+      "sector_count": 131072,
+      "bytes": 67108864
+    },
+    {
+      "name": "security",
+      "start_sector": 186368,
+      "sector_count": 8192,
+      "bytes": 4194304
+    },
+    {
+      "name": "recovery",
+      "start_sector": 194560,
+      "sector_count": 196608,
+      "bytes": 100663296
+    },
+    {
+      "name": "backup",
+      "start_sector": 391168,
+      "sector_count": 786432,
+      "bytes": 402653184
+    },
+    {
+      "name": "cache",
+      "start_sector": 1177600,
+      "sector_count": 786432,
+      "bytes": 402653184
+    },
+    {
+      "name": "metadata",
+      "start_sector": 1964032,
+      "sector_count": 32768,
+      "bytes": 16777216
+    },
+    {
+      "name": "super",
+      "start_sector": 1996800,
+      "sector_count": 6373376,
+      "bytes": 3263168512
+    },
+    {
+      "name": "logo",
+      "start_sector": 8370176,
+      "sector_count": 32768,
+      "bytes": 16777216
+    },
+    {
+      "name": "userdata",
+      "start_sector": 8402944,
+      "sector_count": 114608064,
+      "bytes": 58679328768
+    }
+  ]
+}

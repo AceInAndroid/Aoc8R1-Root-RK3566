@@ -1,0 +1,15 @@
+{
+  "purpose": "RAM-only readback utility; never flash this container",
+  "original_usbplug_sha256": "4038b7857b840f539760decc0daf1601b8ff61cc17798101e93b11128a7f333e",
+  "patched_usbplug_sha256": "a28530e050821ae4d3af94b27cdf1afc7b4d54e2551e28f72d4d90b4e86b0a82",
+  "container_sha256": "bef69d6d3c513af830182d9689673e5953df6749417508d87f150f90d6fb806d",
+  "patch_offset": "0x975c",
+  "original_instruction": "mov w8, #0x10000",
+  "replacement_instruction": "mov w8, #-1",
+  "effect": "Set RAM read-limit sector from 65536 to UINT32_MAX. Storage remains limited by host read requests and device capacity.",
+  "static_evidence": "Value stored at global 0x459684; only read paths at 0xa0a0 and 0xa1a0 compare it and fill 0xcc above the bound. No write handler patched.",
+  "ddr": "unchanged original DDR; IDB SHA256 verified",
+  "flash_loader_entries": 0,
+  "upstream_crc_parser_valid": true,
+  "apple_disassembler_instruction": "000000000000975c\tmov\tw8, #-0x1"
+}

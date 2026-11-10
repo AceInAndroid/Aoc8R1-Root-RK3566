@@ -1,0 +1,11 @@
+assets/*
+!assets/README.md
+work/*
+!work/.gitkeep
+__pycache__/
+*.pyc
+.DS_Store
+*.img
+*.apk
+*.bin
+*.log

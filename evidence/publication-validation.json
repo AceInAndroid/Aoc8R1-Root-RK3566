@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-11-10T06:04:22.530193+00:00",
+  "offline_tests": {
+    "passed": 15,
+    "failed": 0,
+    "command": "python3 -m unittest discover -s tests -v",
+    "device_access": false
+  },
+  "python_compile": "PASS",
+  "shell_syntax": "PASS",
+  "git_whitespace": "PASS",
+  "release_asset_hashes": "PASS",
+  "image_gzip_round_trip_hashes": "PASS",
+  "ram_container_reproduction": "PASS: byte-identical SHA256 bef69d6d3c513af830182d9689673e5953df6749417508d87f150f90d6fb806d",
+  "gpt_parser_against_original_local_sample": "PASS: CRCs and complete partition layout",
+  "rkdeveloptool_source_build": "PASS on macOS ARM64; two existing Clang VLA extension warnings",
+  "tracked_file_privacy_scan": "PASS: serial, local username/path, LAN IP, account email, token/key patterns excluded",
+  "source_archive_owner_metadata": "Removed",
+  "local_markdown_links": "PASS",
+  "hardware_write_during_publication": false,
+  "limitation": "Publicly adapted writer is offline-tested only; successful hardware run used the pre-publication fixed-partition helper. Real root evidence is archived separately."
+}

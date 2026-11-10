@@ -1,0 +1,31 @@
+{
+  "candidate_sha256": "170fc7ec42a0201d7719667e941a30c57a788cab2af6d8995d509d088a2dde52",
+  "candidate_bytes": 67108864,
+  "original_sha256": "76367bf27f95c77f571990c9be077a37d6dc9ad9dc8c53cbcf072e2ac3e43140",
+  "partition_size_fits": true,
+  "android_v2_sha1_both_valid": true,
+  "unchanged_payloads": {
+    "kernel": "c916c8c3c9095d8e70de299a187824fb681cb6d2d1ae93a78295108f3850f102",
+    "second": "d5c5daaf1bc1aecd4acedc106f30e7c940ace4318cdaaac526f18db888d2501e",
+    "recovery_dtbo": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "dtb": "d5f6e7b32b51a14496abd8ef3048c2d803565a234a811e19b460ece784e6de18"
+  },
+  "cmdline_unchanged": true,
+  "original_ramdisk_entries_unchanged_except_init": true,
+  "original_init_backup_verified": true,
+  "magisk_init_and_payloads_match_official_apk": true,
+  "new_ramdisk_entries": [
+    ".backup",
+    ".backup/.magisk",
+    ".backup/.rmlist",
+    ".backup/init.xz",
+    "overlay.d",
+    "overlay.d/sbin",
+    "overlay.d/sbin/init-ld.xz",
+    "overlay.d/sbin/magisk.xz"
+  ],
+  "magisk_config": "KEEPVERITY=true\nKEEPFORCEENCRYPT=true\nRECOVERYMODE=false\nVENDORBOOT=false\nPREINITDEVICE=metadata\nSHA1=e620b585ed69abe1c4518313bb330d8a4d3efcfe\n",
+  "root_status": "NOT BOOTED; NO ROOT OBTAINED",
+  "device_write_status": "No boot flash; candidate generated only in new shell-owned temporary directory",
+  "phase": "Pre-flash candidate validation; runtime results are in root-after-reboot.json"
+}

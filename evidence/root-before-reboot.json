@@ -1,0 +1,21 @@
+{
+  "time": "2026-11-10T05:46:00.915773+00:00",
+  "checks": {
+    "root_id": {
+      "exit_code": 0,
+      "output": "uid=0(root) gid=0(root) groups=0(root) context=u:r:magisk:s0\n"
+    },
+    "boot_state": {
+      "exit_code": 0,
+      "output": "1\nstopped\nnormal\norange\n0\nEnforcing\nBOOT_SESSION_A_REDACTED\n"
+    },
+    "root_environment": {
+      "exit_code": 0,
+      "output": "drwx------ 6 root root 3452 2026-11-10 13:39 /data/adb\ndrwxr-xr-x 2 root root 3452 2026-11-10 13:41 /data/adb/magisk\nlrwxrwxrwx 1 root root 20 2026-11-10 13:42 /dev/block/by-name/boot -> /dev/block/mmcblk2p7\nlrwxrwxrwx 1 root root 20 2026-11-10 13:42 /dev/block/by-name/recovery -> /dev/block/mmcblk2p9\n170fc7ec42a0201d7719667e941a30c57a788cab2af6d8995d509d088a2dde52  /dev/block/by-name/boot\nee1a5c4956cff459cf0c88e4f5701ac9a32a2db6d7ea9b03c4395d78d4dc6bde  /dev/block/by-name/recovery\n31.1:MAGISK:R\n-rwxr-xr-x 1 root root 1710600 1979-11-30 00:00 /data/adb/magisk/busybox\n"
+    },
+    "shell_path": {
+      "exit_code": 0,
+      "output": "/vendor/bin/su\n/product/bin:/apex/com.android.runtime/bin:/apex/com.android.art/bin:/system_ext/bin:/system/bin:/system/xbin:/odm/bin:/vendor/bin:/vendor/xbin\n"
+    }
+  }
+}

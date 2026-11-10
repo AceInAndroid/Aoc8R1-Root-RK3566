@@ -1,0 +1,18 @@
+{
+  "time": "2026-11-10T05:47:02.717876+00:00",
+  "checks": {
+    "normal_boot": {
+      "exit_code": 0,
+      "output": "1\nstopped\nnormal\nBOOT_SESSION_B_REDACTED\nEnforcing\n"
+    },
+    "root": {
+      "exit_code": 0,
+      "output": "uid=0(root) gid=0(root) groups=0(root) context=u:r:magisk:s0\n"
+    },
+    "magisk": {
+      "exit_code": 0,
+      "output": "31.1:MAGISK:R\ndrwxr-xr-x 2 root root 3452 2026-11-10 13:41 /data/adb/magisk\n170fc7ec42a0201d7719667e941a30c57a788cab2af6d8995d509d088a2dde52  /dev/block/by-name/boot\nee1a5c4956cff459cf0c88e4f5701ac9a32a2db6d7ea9b03c4395d78d4dc6bde  /dev/block/by-name/recovery\n"
+    }
+  },
+  "result": "PASS: normal boot, root survives reboot, boot candidate and original recovery hashes match"
+}
